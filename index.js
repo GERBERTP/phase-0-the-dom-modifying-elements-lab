@@ -1,3 +1,12 @@
+
+var el = document.getElementById('main');
+el.remove();
+
+const newHeader = document.createElement("h1");
+newHeader.id='victory';
+newHeader.innerHTML = 'HERBERT is the champion';
+
+
 const element = document.createElement("div");
 document.body.append(element);
 const ul = document.createElement("ul");
@@ -20,5 +29,3 @@ element.style.fontSize = "24px";
 element.style.marginLeft = "30px";
 element.style.lineHeight = 2;
 
-var el = document.getElementById('main');
-el.remove();
